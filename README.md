@@ -25,3 +25,5 @@
 - **[Problem 22 (Python)](ProjEuler/ex22.py)**
 - **[Problem 24 (Python)](ProjEuler/ex24.py)**
 - **[Problem 25 (Python)](ProjEuler/ex25.py)**
+- **[Problem 203 (Python)](ProjEuler/ex203.py)**
+- **[Problem 206 (Python)](ProjEuler/ex206.py)**

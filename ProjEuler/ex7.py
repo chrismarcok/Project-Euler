@@ -19,10 +19,10 @@ def isPrime(n)->bool:
     >>> isPrime(149)
     True
     """
-    if n == 1 or n == 0:
-        return False
-    elif n == 2:
+    if n == 2:
         return True
+    elif n == 1 or n == 0 or n % 2 == 0:
+        return False
     largestNum = n**0.5
     for x in range(2, math.trunc(largestNum) + 1):
         if n % x == 0:
