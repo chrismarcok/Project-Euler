@@ -22,7 +22,7 @@ def isPrime(n)->bool:
     if n == 1 or n == 0:
         return False
     elif n == 2:
-        return False
+        return True
     largestNum = n**0.5
     for x in range(2, math.trunc(largestNum) + 1):
         if n % x == 0:
