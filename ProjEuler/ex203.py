@@ -40,6 +40,8 @@ def squareFree(n: int) -> bool:
 
 lst = []
 
+
+
 for x in range(51):
     for y in range(x + 1):
         var = nCr(x, y)
